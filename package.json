@@ -1,0 +1,28 @@
+{
+  "name": "itsnunolemos",
+  "version": "1.0.0",
+  "description": "My personal card - Nuno Lemos (@itsnunolemos)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsnunolemos/card.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node index.js",
+    "dev": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm card",
+    "npx card",
+    "personal card"
+  ],
+  "author": "Nuno Lemos (itsnunolemos.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
