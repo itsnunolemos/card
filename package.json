@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My personal card - Nuno Lemos (@itsnunolemos)",
   "main": "index.js",
+  "bin": {
+    "itsnunolemos": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/itsnunolemos/card.git"
